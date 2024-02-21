@@ -1,0 +1,36 @@
+ @import url(./node_modules/bootstrap/dist/css/bootstrap.min.css);
+
+* { box-sizing: border-box; }
+
+body { background-color: #7786333a; }
+
+ .card1, .card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 570px;
+  background: -webkit-gradient(linear, left top, right top, from(#1CB5E0), to(#000851));  
+  background: -o-linear-gradient(left, #1CB5E0 0%, #000851 100%);  
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+ }
+
+ .credit-card, form { width: 90%; }
+
+ /* add new button */
+button { 
+  color: orangered; 
+  background-color: transparent;
+}
+
+button:hover { color: red; }
+
+/* Proceed  buttons*/
+button.btn { 
+  width: fit-content;
+  color: white;
+  background-color: orangered;
+  transition: all 0.5s;
+}
+
+button.btn:hover {  background-color: red; color: white; }
